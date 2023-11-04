@@ -32,6 +32,14 @@ public class ConverterServlet extends HttpServlet {
         out.println("<html>");
         out.println("<head>");
         out.println("<title>Temperature Converter</title>");
+        out.println("<style>");
+        out.println("body { background-color: #f0f0f0; font-family: Arial, sans-serif; text-align: center; }");
+        out.println("h1 { color: #007BFF; }");
+        out.println("form { background-color: #ffffff; padding: 20px; border-radius: 5px; display: inline-block; }");
+        out.println("input[type='text'] { width: 100px; padding: 5px; border: 1px solid #ccc; border-radius: 3px; }");
+        out.println("input[type='submit'] { background-color: #007BFF; color: #fff; border: none; padding: 5px 10px; margin: 5px; cursor: pointer; border-radius: 3px; }");
+        out.println("p { margin: 10px; }");
+        out.println("</style>");
         out.println("</head>");
         out.println("<body>");
         out.println("<h1>Temperature Converter </h1>");
